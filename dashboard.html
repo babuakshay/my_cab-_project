@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!--Side bar-->
+    <div class="flex min-h-[100vh] flex-no-wrap">
+        <div class="w-64 bg-gray-800 hidden md:block">
+         <!--- Dashboard text wrapper-->
+         <div class="flex justify-center items-center h-20 bg-gray-900">
+            <h1 class="text-white text-2xl">Dashboard</h1>
+         </div>
+         <nav class="mt-10">
+          <a href="#"class="flex mt-4 items-center  py-2 px-6 bg-gray-700 text-gray-100 hover:text-gray-400">
+            <span class="mx-3">Home</span>
+        </a>
+        <a href="#"class="flex mt-4 items-center   py-2 px-6  hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+            <span class="mx-3">Analytics</span>
+        </a>
+        <a href="#"class="flex mt-4 items-center  py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+            <span class="mx-3">Sales</span>
+        </a>
+        <a href="#"class="flex  mt-4 items-center  py-2 px-6  hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+            <span class="mx-3">Messages</span>
+        </a>
+         </nav>
+        </div>
+         <!--main contant-->
+    <div class="flex">
+        <!---navbar-->
+<header class="flex items-center bg-white px-4 h-16">
+
+</header>
+<!----sidebar-->
+ <button class="md:hidden py-2 border rounded-md text-gray-600 border-gray-300 hover:text-gray-800">
+    <a href  class="h-6 w-6"javascript:void(0); onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+ </button>
+<div class="ml-auto flexitems-center">
+    <button class="flex items-center px-4 py-2 border rounded-md text-gray-600 border-gray-300">
+        <span class="mr-2"> sing out</span>
+</button>
+</div>
+ <!-- contant-->
+   <main class="p-4 md:p-6">
+    <div class=" flex flex gap-5">
+        <!--card 1-->
+        <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%]">
+            <H3 class="text-xl font-semibold mb-4">Revenue</H3>
+            <p class="text-gray-600 text-3xl">50000</p>
+        </div>
+        <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%]">
+            <H3 class="text-xl font-semibold mb-4">Users</H3>
+            <p class="text-gray-600 text-3xl">50000</p>
+        </div>
+        <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%]">
+            <H3 class="text-xl font-semibold mb-4">Sales</H3>
+            <p class="text-gray-600 text-3xl">50000</p>
+        </div>
+    </div>
+
+   </main>
+  </div>
+    </div>
+</body>
+</html>
